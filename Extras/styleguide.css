@@ -1,0 +1,62 @@
+
+:root {
+    --black
+  : rgba(0, 0, 0, 1);
+    --white
+  : rgba(255, 255, 255, 1);
+  
+    --font-size-m
+  : 18px;
+    --font-size-l
+  : 24px;
+    --font-size-xl
+  : 35px;
+  
+    --font-family-open_sans
+  : "Open Sans";
+  }
+  
+  
+  
+  
+      
+  
+  .opensans-normal-white-18px
+   {
+    color: var(--white
+  );
+    font-family: var(--font-family-open_sans
+  );
+    font-size: var(--font-size-m
+  );
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+      
+  
+  .opensans-extra-bold-white-24px
+   {
+    color: var(--white
+  );
+    font-family: var(--font-family-open_sans
+  );
+    font-size: var(--font-size-l
+  );
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+      
+  
+  .opensans-extra-bold-white-35px
+   {
+    color: var(--white
+  );
+    font-family: var(--font-family-open_sans
+  );
+    font-size: var(--font-size-xl
+  );
+    font-weight: 800;
+    font-style: normal;
+  }

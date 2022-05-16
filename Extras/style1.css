@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+  min-width: 100%;
+  min-height: 100%;
+  background-position: top center;
+}
+
+body {
+  height: 2054px;
+  background-color: #FFF;
+}
+
+.nav-container{
+  height: 71px;
+  background: linear-gradient(180deg, rgba(255, 253, 253, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.wrapper nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 72px;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 150px;
+}
+
+.login{
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+  padding-right: 52px;
+  /* identical to box height */
+
+  color: #FFFFFF;
+
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25), 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+.generate-window{
+  background: rgba(99, 31, 235, 0.5);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  width: 610px;
+  height: 850px;
+  margin: 0 auto;
+  padding: 14px;
+  position: relative;
+}
+
+.slider-container{
+  width: 589px;
+  height: 148px;
+  background: rgba(99, 31, 235, 0.5);
+  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.25), inset 0px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  position: inherit;
+}
+
+
+
+.switch {
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    width: 535px;
+    height: 72px;
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+
+
+  .advanced_text{
+    width: 122;
+    height: 31px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .basic_text{
+    
+    justify-self: center;
+    padding-left: 20px;
+
+    width: 65px;
+    height: 33px;
+    
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    
+    /* identical to box height */
+    
+    color: #FFFFFF;
+    
+    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  }
+
+  .slider:before {
+    position: absolute;
+    content: "";
+    left: 15px;
+    bottom: 10px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    width: 260px;
+    height: 52px;
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.25), inset 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+
+  }
+  
+
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(245px);
+    -ms-transform: translateX(245px);
+    transform: translateX(246px);
+  }
+
+  .create-container{
+    width: 590px;
+    height: 654px;
+    background: rgba(99, 31, 235, 0.5);
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.25), inset 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+  
+  .create-form{
+    
+
+    
+  }
+
+  .name-cont{
+    width: 393px;
+    height: 73px;
+
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25), 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+  }
+
+  .input{
+    width: 372px;
+    height: 53px;
+
+    background: rgba(255, 255, 255, 0.23);
+    box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.25), inset 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+  }
+  /* Rounded sliders */
